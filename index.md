@@ -44,6 +44,7 @@ Results-driven Backend Engineer with over 2.5 years of experience designing, dev
 ---
 
 ## Let's Connect
-* [View my LinkedIn Profile](https://linkedin.com/in/saikumar-mediboina)
+* [View my LinkedIn Profile](https://www.linkedin.com/in/saikumar-mediboina-1b8258136/)
+* [LeetCode Profile](https://leetcode.com/u/msaikumar6789/)
 * [Check out my GitHub Repositories](https://github.com/yourgithubusername)
 * [Download My Full Resume (PDF)](#) *(Note: You can upload your PDF resume to your repository later and link it here)*
