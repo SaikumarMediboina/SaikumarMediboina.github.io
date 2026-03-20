@@ -2,8 +2,7 @@
 **Backend Software Engineer | Java | Spring Boot | Oracle**
 
 📍 Rajahmundry, Andhra Pradesh, India  
-✉️ [msaikumar6789@gmail.com](mailto:msaikumar6789@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/saikumar-mediboina-1b8258136/) | 🌐 [Portfolio](https://saikumarmediboina.github.io/)
-
+✉️ [msaikumar6789@gmail.com](mailto:msaikumar6789@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/saikumar-mediboina-1b8258136/) 
 ---
 
 ## 🚀 Objective
