@@ -2,20 +2,21 @@
 **Backend Software Engineer | Java | Spring Boot | Oracle**
 
 📍 Rajahmundry, Andhra Pradesh, India  
-✉️ [msaikumar6789@gmail.com](mailto:msaikumar6789@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/saikumar-mediboina-1b8258136/)
+✉️ [msaikumar6789@gmail.com](mailto:msaikumar6789@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/saikumar-mediboina-1b8258136/) | 🌐 [Portfolio](https://saikumar.github.io)
 
 ---
 
 ## 🚀 Objective
-Results-driven Software Engineer with **2.5+ years of experience** designing scalable microservices and high-throughput backend systems. Proficient in Java, Spring Boot, and Oracle PL/SQL, seeking to leverage database optimization expertise in a challenging backend role.
+Backend engineer specializing in performance optimization (97% batch, 85% real-time improvements) and distributed systems at scale. Proven track record of migrating enterprise search engines and reducing database CPU loads, looking to architect scalable Java/Spring systems.
 
 ---
 
 ## 🛠️ Technical Skills
 
 * **Languages:** Java, SQL, PL/SQL
-* **Frameworks & Tools:** Spring, Spring Boot, Hibernate, RESTful APIs, Git, Maven
-* **Databases & Concepts:** Oracle, MySQL, Microservices, Multithreading
+* **Frameworks & Architecture:** Spring, Spring Boot, Hibernate, RESTful APIs, Microservices, Apache Kafka
+* **Databases & Search:** Oracle 19c, Oracle Text, OpenSearch, MySQL
+* **Cloud & Tools:** OCI, Grafana, APM, Git, Maven
 
 ---
 
@@ -24,29 +25,30 @@ Results-driven Software Engineer with **2.5+ years of experience** designing sca
 ### **Application Developer IC1** | Oracle
 *Bangalore, India | Aug 2023 – Present*
 
-* **Awards:** Received the **FSGIU Pacesetter – Spark Award** for accelerating real-time request performance in the Transaction Filtering Cloud Service and delivering a streamlined Exemption UI using Oracle APEX.
-* **Database Optimization:** Engineered high-performance PL/SQL stored procedures and strategic database indexing, drastically reducing database round-trips and lowering server CPU load.
-* **System Scalability:** Scaled system throughput by implementing asynchronous database operations via the Java Executor Framework and tuning Oracle Coherence cache serialization to minimize I/O latency.
+* Architected a highly scalable, cloud-native compliance platform on OCI/Kubernetes for enterprise Customer Screening (CS) and Transaction Filtering (TF). 
+* Leveraged OpenSearch and Oracle Text to process real-time and high-volume batch workloads, driven by a hybrid decision engine blending deterministic matching with AI semantic search.
 
 ---
 
-## 💻 Major Projects
+## 💻 Projects & Architecture
 
-### **OpenSearch to Oracle Text Migration**
-* **Watchlist Index & Core Matching Engine:** Architected the backend transition from OpenSearch to an Oracle Text matching engine via a fault-tolerant PL/SQL transliteration pipeline. Built secure RESTful Spring APIs to interface the UI with the backend, dynamically generating fuzzy/exact queries and automating rule snapshotting.
-* **Real-Time and Batch Synchronous Screening:** Designed a REST-based screening pipeline processing complex JSON payloads, scaling to handle 100 concurrent requests. Streamlined nightly batch screening by decoupling OpenSearch and optimizing Full/Delta loads. Spearheaded migration, validation, and S5/S6 volume testing.
+### **Matching & Scoring Engine** *OpenSearch, Oracle Text, Kubernetes, OCI, Microservices*
 
-### **Advanced Hybrid Scoring Engine**
-* Developed a proprietary scoring microservice utilizing configurable algorithms and edit distances (CED, CMP, WMP, WED) to seamlessly blend AI similarity scores with traditional token-based matching models.
+* **Intelligent Data Ingestion:** Designed secure, REST-based Spring APIs to handle 100 concurrent real-time JSON payloads alongside high-volume nightly batch screening (CS, TF). Engineered a fault-tolerant PL/SQL pipeline using advanced regex and XML aggregations to automatically cleanse, denoise, and transliterate global watchlist data prior to indexing.
+* **Core Search Engine Migration & Scale:** Spearheaded the backend transition from OpenSearch to an Oracle Text matching engine, leveraging storage-level computation to significantly reduce infrastructure costs. Scaled the system to process millions of transactions against billions of records, achieving 100+ TPS with sub-2.5s average latency across 23,000-message volume runs (screening 8 simultaneous global watchlists with zero errors).
+* **High-Volume Batch Processing:** Achieved 97% latency reduction (2h 5min &rarr; 3min) for 5K-transaction compliance screening by: strategic database indexing on hot paths, intelligent batching to eliminate N+1 queries (N+500 calls &rarr; single aggregated query), and multi-threaded parallel processing with transaction isolation. Scaled to 25K transaction volumes with consistent 8-second average latency.
+* **Narrative Text Extraction Engine:** Built intelligent text parser that tokenizes unstructured input and extracts best-match substrings using configurable exact/fuzzy matching. Designed multi-factor scoring algorithm (match quality, length, gap penalties) to rank candidate entities with high precision.
+* **Real-Time Screening Optimization:** Achieved an 85% latency reduction (2s &rarr; 300ms) by redesigning synchronous processing into an asynchronous CompletableFuture-based pipeline. Parallelized database queries across thread pools and eliminated JSON aggregation bottlenecks via incremental result streaming to the staging tables.
+* **Multi-Service Performance Tuning:** Improved throughput across Alert, Swift, and Data Transform services by migrating JSON processing to stored procedures with alert suppression (70% fewer round-trips), implementing Executor Framework async inserts, optimizing Coherence cache serialization, and deploying strategic query caching.
+* **Advanced Hybrid Scoring Engine:** Developed configurable scoring microservice using mathematical edit distances (CED, CMP, WMP, WED) and ML-driven fuzzy matching to blend AI similarity scores with deterministic rules, reducing false positives and improving entity resolution accuracy for global watchlists.
 
 ---
 
 ## 🎓 Education
 
-* **M.Tech in Information Technology** *National Institute of Technology (NIT) Karnataka* | Aug 2021 – July 2023  
+* **M.Tech in Information Technology** | *NIT Karnataka* | Aug 2021 – July 2023  
   **CGPA:** 8.96
-
-* **B.Tech in Information Technology** *JNTU Vizianagaram* | June 2016 – Sept 2020  
+* **B.Tech in Information Technology** | *JNTU Vizianagaram* | June 2016 – Sept 2020  
   **CGPA:** 8.36
 
 ---
@@ -60,10 +62,12 @@ Results-driven Software Engineer with **2.5+ years of experience** designing sca
 
 ---
 
-## 🏆 Academic Achievements
+## 🏆 Awards & Academic Achievements
 
+* **FSGIU Pacesetter - Spark Award (Oracle):** Awarded for achieving a 7x performance improvement by reducing latency from 5s to 700ms (86%) and playing a key role in migrating core search systems from OpenSearch to Oracle Text.
+* **Oracle Agent IR Hackathon (2025):** Engineered an enterprise application to automate daily IUT check-in activities, securing 5th place out of 200 teams and earning official Oracle recognition for rapid prototyping and technical execution.
 * **Competitive Examination Excellence:** Secured a **98.0 percentile in GATE 2021** (CS/IT) and a **top 2% statewide rank in EAMCET 2016**, earning a full four-year merit tuition scholarship.
-* **Vice President of India Scholarship:** Awarded Scholarship for outstanding academic excellence (2019).
+* **Vice President of India Scholarship:** Awarded Scholarship for academic excellence (2019).
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
